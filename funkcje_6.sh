@@ -22,7 +22,7 @@ fi
 fi
 done
 
-if [[ $y == t || $y ==T ]]; then
+if [[ $y == t || $y == T ]]; then
 echo "Utworzyłem konta z katalogiem domowym."
 else
 echo "Utworzyłem konta bez katalogu domowego."
