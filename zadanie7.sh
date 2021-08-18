@@ -1,5 +1,24 @@
 #! /bin/bash
 
+echo "Automat z napojami"
+select a in "Kawa" "Herbata" "Sok" "Quit"
+do
+case $a in
+"Kawa") echo "Wybrales Kawe. Smacznego!"
+exit;;
+"Herbata") echo "Wybrales Herbate. Smacznego!"
+exit;;
+"Sok") echo "Wybrales Sok. Smacznego!"
+exit;;
+"Quit") echo "Do widzenia."
+exit;;
+esac
+done
+
+exit 0
+
+########################
+
 while [ true ]
 do
 echo "Automat z napojami"
@@ -21,3 +40,4 @@ break
 done
 
 exit 0
+
