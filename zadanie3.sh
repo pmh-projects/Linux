@@ -5,9 +5,9 @@ read a
 
 
 if [[ $a == "T" || $a == "t" || $a == "Tak" || $a == "tak" || $a == "TAK" ]]; then
-echo "Dobry wieczor";
+echo "Dobry wieczor"
 elif [[ $a == "N" || $a == "n" || $a == "Nie" || $a == "nie" || $a == "NIE" ]]; then
-echo "Dzien dobry";
+echo "Dzien dobry"
 else
 echo "Nie rozpoznana odpowiedz: $a"
 fi
